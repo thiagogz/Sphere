@@ -13,7 +13,7 @@ export function PostForm(){
     return (
         <form action={handleSubmit} className="flex items-end gap-2">
             <div className="flex-grow">
-                <Textarea name="content" placeholder="What's on your mind?" />
+                <Textarea name="text" placeholder="What's on your mind?" />
 
             </div>
             <Button type="submit" >enviar</Button>
